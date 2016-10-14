@@ -93,6 +93,54 @@
           id="89e81d0a-924f-436e-b0bc-04c26dc33398" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="1f50e2ab-dab7-42fd-814d-663af95b661c" name="Root System Function">
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27" name="Experiment">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="5c463089-93ba-4c96-ad6b-66b968327951" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#2e1e5e79-bb49-4d03-a480-a74d3c475535" nextFunctionalChainInvolvements="#7045e073-a5e5-40ef-9561-3bae7812801b"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="4eea1bc8-5a76-4200-9719-75253d310b29" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#764b4e24-5462-42ac-945d-2a26dd5e227c" nextFunctionalChainInvolvements="#87df4a5b-b1a4-4d47-b2d8-b5fa468587d3"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="7534e6c6-e21f-4c10-9ee6-5dc10bc8ce71" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#8db380e2-eb58-4cec-8e62-6257869c02f8" nextFunctionalChainInvolvements="#a86ca7b3-99af-414a-8871-d9cf64e6b5b6"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="c9a06bae-368d-4d58-b9d1-deb8a44a1c04" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#82eb7e5e-4c31-40de-8dae-598eb0714b7f" nextFunctionalChainInvolvements="#423ac29e-7a14-4167-9990-a1eb9f931901"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="0726b358-5f8e-48fa-b85e-4b4a09d01746" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#a73942e0-4ae8-4e9c-b799-b0f9513d4d4c" nextFunctionalChainInvolvements="#020303ef-afe1-44ed-8bff-9fe120aeae13"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="d1d332d5-e9a7-47f7-9e33-53bd8350cab9" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#36f8e91c-58c8-44c8-b4cf-7cf3840a6132"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="95364a79-d586-46b0-a6c2-fa231a5aace8" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#f3cf0d0c-bc16-45c8-ad62-14504b186d90" nextFunctionalChainInvolvements="#2045a63e-26aa-427d-9bc1-556ee6f92629"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="423ac29e-7a14-4167-9990-a1eb9f931901" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#f0174703-23e3-40f2-a81f-9c7e3470d202" nextFunctionalChainInvolvements="#5c463089-93ba-4c96-ad6b-66b968327951"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="7045e073-a5e5-40ef-9561-3bae7812801b" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#6981539d-5891-4e34-9518-4b845ead6656" nextFunctionalChainInvolvements="#7534e6c6-e21f-4c10-9ee6-5dc10bc8ce71"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="87df4a5b-b1a4-4d47-b2d8-b5fa468587d3" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#8377a94a-1e91-4dcb-b4aa-06d9988b3ae5" nextFunctionalChainInvolvements="#95364a79-d586-46b0-a6c2-fa231a5aace8"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="2045a63e-26aa-427d-9bc1-556ee6f92629" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#fe0d9ed0-6a89-4b21-8559-a3aba5b335db" nextFunctionalChainInvolvements="#0726b358-5f8e-48fa-b85e-4b4a09d01746"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="020303ef-afe1-44ed-8bff-9fe120aeae13" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#79be3391-0340-440f-89ac-0699f5984dc0" nextFunctionalChainInvolvements="#d1d332d5-e9a7-47f7-9e33-53bd8350cab9"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="6a9e0d26-17a3-4809-a2d2-bd80ec21034e" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#2e1e5e79-bb49-4d03-a480-a74d3c475535" nextFunctionalChainInvolvements="#9a06860d-10f2-4388-ab10-dfa2781f1374"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="a86ca7b3-99af-414a-8871-d9cf64e6b5b6" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#900bb56a-25e0-448a-a0f2-1f29fc1edbe6" nextFunctionalChainInvolvements="#6a9e0d26-17a3-4809-a2d2-bd80ec21034e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="9a06860d-10f2-4388-ab10-dfa2781f1374" involver="#1b4ef6f9-dd1a-44fb-ae0e-11f608d34c27"
+                involved="#4386a0cf-c39b-4793-b7ed-30c77767eecf" nextFunctionalChainInvolvements="#4eea1bc8-5a76-4200-9719-75253d310b29"/>
+          </ownedFunctionalChains>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="1900f479-2063-4551-984a-cb39f31f133c" name="Monitor">
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
