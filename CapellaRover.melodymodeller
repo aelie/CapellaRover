@@ -3858,6 +3858,170 @@
               id="3cf4a7e1-872e-47a5-934c-5e57ed2e86fb" targetElement="#d6e992d7-5552-4ce3-8f08-ce2f6ca24036"
               sourceElement="#60e17c63-39ba-4afe-9f73-b859cc94a263"/>
         </ownedFeatures>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="db702037-2e99-4b9a-9908-37e35c29b9e9"
+            name="Structure" abstractType="#e483aaf1-b77f-4100-b923-82826a9ba697"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="63d4dc1f-14cf-4132-80d9-1791eeb880e7"
+            name="Communication module" abstractType="#72e69412-8146-4753-9c4c-a6a571b22b80"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9dced93f-1513-4a46-b0d6-4a639e6dcb68"
+            name="Wheel 6" abstractType="#4bd3c722-6313-4a5a-9753-cc204a70ebec"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2cb828c8-4be8-40ec-a579-7e6ad3631544"
+            name="Wheel 2" abstractType="#383b1b86-eb6d-4c57-a2b8-820c8f95a7de"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f2f5ad8f-e99a-4201-8f56-82fadf13507a"
+            name="Engine" abstractType="#e9bae964-6cb8-421e-9206-3ea2883ebab9"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7e6ade32-ece3-4a3e-8d18-a6eba94cd4fa"
+            name="Wheel 3" abstractType="#05a6eb8b-7fdf-4e33-a2f4-b4b9dd41bd09"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6026b188-b617-4da6-a3bb-f34054fc274f"
+            name="Wheel 1" abstractType="#0b813da2-ea98-4f6f-ad21-41be90a1bbde"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a6697270-b7eb-498a-8448-70fa24c64a0f"
+            name="Wheel 4" abstractType="#118eb1cd-9413-4f5c-8250-d3d106851057"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="d0d544f3-3784-4770-88e9-83d7fbe482da"
+            name="Camera" abstractType="#7629514f-fa3d-4af8-9c28-2fd23f7e7e3e"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0f949e68-9584-4751-a579-529c7e528a2c"
+            name="Wheel 5" abstractType="#d59fcec5-cae8-489b-8d90-a2ef4ddef8c0"/>
+        <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="06300437-76ba-466d-80ed-94900d209690"
+            name="Central computer" abstractType="#16bf2801-de9f-4bad-91e8-bfbe661b957b"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="101ddcb0-3c1e-40d2-bcbd-b06a50f007c9" name="PL 1" linkEnds="#f4be49c1-4b3f-464a-a4de-8b24c96e4fd0 #2eb5bfa2-26c8-4ae7-9135-1b40d1589168"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="19865365-c0c2-4613-94f9-9f9ed2f5f64d" name="PL 2" linkEnds="#235c2472-faab-46b4-8c3f-46d7feb06fa5 #29839941-419b-4046-af91-b395a0793bd0"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="4ca406b9-37d6-4a08-812c-db62fca95c44" name="PL 3" linkEnds="#c7e22927-c4f6-463d-b59c-452ebcdfcb69 #e25ff5ef-c9d5-4aec-8102-9e8451e26992"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="0dcf1450-5ab3-40d2-ac42-287d84507c8b" name="PL 4" linkEnds="#95b9942d-4da1-4b41-9b50-4c596d9afcc4 #44b30703-4b86-4576-86da-7194e5aff258"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="ea76158b-f081-482d-84b6-e864af3bb95c" name="PL 5" linkEnds="#5a63dc27-796f-4cfd-bf3d-d57e5494cfcd #a9753fda-fe4e-45fd-941c-6a5c003d098c"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="8671f051-aea9-42d5-8659-a70e631abf4a" name="PL 6" linkEnds="#0858b64a-e36b-48c7-aa6c-9aaf8851a0d8 #b7f50440-b6d3-4aa7-9150-f1c512703382"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="4d3ef71c-f728-49de-93af-61ed3cefd223" name="PL 7" linkEnds="#0209bcb2-9891-4696-89e7-6e25bfc1e359 #649d846b-c9c8-41f0-b145-b3fe34874890"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="5ae42f96-09d0-46b9-a3c7-020dfa8798cd" name="PL 8" linkEnds="#e211042b-4b47-4149-960a-ee9cdd80e1b4 #99d49486-6feb-410d-afbe-4f04ded0974e"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="2fb5f51e-4f1f-4f86-ac52-4b00939992e6" name="PL 9" linkEnds="#48b6d63c-4a01-4a5d-a5a0-74bb2b7e88fa #a26ec27a-27f7-40a4-8fe1-798ad0bb67d0"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="0c1b2a2b-c5ad-4f7c-82a1-14f1bf4cfe40" name="PL 10" linkEnds="#75af6b68-67cc-4f0d-aa7b-7a155148f7ee #74fa160a-aa69-4033-b2d4-980cf77e8ae5"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="75d70042-faf7-4c64-9754-59c17dc291f5" name="PL 11" linkEnds="#f45f2856-33b2-4b0a-b8ea-b18a089e3bf5 #1471ba68-3eee-4107-8c17-18f11647f191"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="4961c5e6-f2cf-43f5-9dcc-59240f0d5ce9" name="PL 12" linkEnds="#7e9cac1f-d6f1-4f7d-b336-599bcbb9a85c #0893e6b9-543f-4545-84b4-f9ca1bde4099"/>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="e483aaf1-b77f-4100-b923-82826a9ba697" name="Structure" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="2eb5bfa2-26c8-4ae7-9135-1b40d1589168" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="29839941-419b-4046-af91-b395a0793bd0" name="PP 2"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="e25ff5ef-c9d5-4aec-8102-9e8451e26992" name="PP 3"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="44b30703-4b86-4576-86da-7194e5aff258" name="PP 4"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="a9753fda-fe4e-45fd-941c-6a5c003d098c" name="PP 5"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="b7f50440-b6d3-4aa7-9150-f1c512703382" name="PP 6"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="649d846b-c9c8-41f0-b145-b3fe34874890" name="PP 7"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="99d49486-6feb-410d-afbe-4f04ded0974e" name="PP 8"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="a26ec27a-27f7-40a4-8fe1-798ad0bb67d0" name="PP 9"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="74fa160a-aa69-4033-b2d4-980cf77e8ae5" name="PP 10"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="6519d8f4-c5d4-44fb-8d65-fa4ac96713ae" name="PL 1" linkEnds="#034b1c57-1692-4657-89ca-8835a6bd84d8 #ad610d4e-9ab7-49b3-94d9-4f62eea514b3"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="036ab329-b376-4b02-a78c-7a2671cfe9e4" name="PL 2" linkEnds="#b0d1073a-4aec-4658-b76b-bbede35c97fe #36d8b914-0e0e-49c0-8e4b-e46134f7d960"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="4026b01b-2cc8-4e6b-b964-9763147bcf5d" name="PL 3" linkEnds="#c097a735-dbb1-416b-b1e0-33944640a620 #3188179e-d428-4c95-9e71-b10f619d8ace"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="955677b5-c078-4d95-acec-0315ae260927" name="PL 4" linkEnds="#9ac6e539-1395-4ca9-9919-80b6d67f2971 #4a78934e-76cd-496b-8b19-7cea3307c1d0"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="738a82fe-aa7c-4bb3-8650-464313691cbc" name="PL 5" linkEnds="#9865bb93-3321-400a-b0a9-a20495c5fcaf #7addaa8f-270f-4e26-9538-acfa050ed8c9"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="754c476e-b937-4251-8553-cc179b00d7db" name="PL 6" linkEnds="#f1639d57-0e24-4256-9bc3-d66f0e7e31a8 #39b856f3-31da-4b66-89ad-4967dc5a4670"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="72e69412-8146-4753-9c4c-a6a571b22b80" name="Communication module"
+            nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="75af6b68-67cc-4f0d-aa7b-7a155148f7ee" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="7e9cac1f-d6f1-4f7d-b336-599bcbb9a85c" name="PP 2"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="4bd3c722-6313-4a5a-9753-cc204a70ebec" name="Wheel 6" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="f1639d57-0e24-4256-9bc3-d66f0e7e31a8" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="95b9942d-4da1-4b41-9b50-4c596d9afcc4" name="PP 2"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="383b1b86-eb6d-4c57-a2b8-820c8f95a7de" name="Wheel 2" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="b0d1073a-4aec-4658-b76b-bbede35c97fe" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="235c2472-faab-46b4-8c3f-46d7feb06fa5" name="PP 2"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="e9bae964-6cb8-421e-9206-3ea2883ebab9" name="Engine" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="ad610d4e-9ab7-49b3-94d9-4f62eea514b3" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="36d8b914-0e0e-49c0-8e4b-e46134f7d960" name="PP 2"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="3188179e-d428-4c95-9e71-b10f619d8ace" name="PP 3"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="4a78934e-76cd-496b-8b19-7cea3307c1d0" name="PP 4"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="7addaa8f-270f-4e26-9538-acfa050ed8c9" name="PP 5"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="39b856f3-31da-4b66-89ad-4967dc5a4670" name="PP 6"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="f4be49c1-4b3f-464a-a4de-8b24c96e4fd0" name="PP 7"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="05a6eb8b-7fdf-4e33-a2f4-b4b9dd41bd09" name="Wheel 3" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="c097a735-dbb1-416b-b1e0-33944640a620" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="0858b64a-e36b-48c7-aa6c-9aaf8851a0d8" name="PP 2"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="0b813da2-ea98-4f6f-ad21-41be90a1bbde" name="Wheel 1" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="034b1c57-1692-4657-89ca-8835a6bd84d8" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="5a63dc27-796f-4cfd-bf3d-d57e5494cfcd" name="PP 2"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="118eb1cd-9413-4f5c-8250-d3d106851057" name="Wheel 4" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="9ac6e539-1395-4ca9-9919-80b6d67f2971" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="c7e22927-c4f6-463d-b59c-452ebcdfcb69" name="PP 2"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="7629514f-fa3d-4af8-9c28-2fd23f7e7e3e" name="Camera" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="48b6d63c-4a01-4a5d-a5a0-74bb2b7e88fa" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="f45f2856-33b2-4b0a-b8ea-b18a089e3bf5" name="PP 2"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="d59fcec5-cae8-489b-8d90-a2ef4ddef8c0" name="Wheel 5" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="9865bb93-3321-400a-b0a9-a20495c5fcaf" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="0209bcb2-9891-4696-89e7-6e25bfc1e359" name="PP 2"/>
+        </ownedPhysicalComponents>
+        <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+            id="16bf2801-de9f-4bad-91e8-bfbe661b957b" name="Central computer" nature="NODE">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="e211042b-4b47-4149-960a-ee9cdd80e1b4" name="PP 1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="1471ba68-3eee-4107-8c17-18f11647f191" name="PP 2"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="0893e6b9-543f-4545-84b4-f9ca1bde4099" name="PP 3"/>
+        </ownedPhysicalComponents>
         <ownedLogicalComponentRealizations xsi:type="org.polarsys.capella.core.data.pa:LogicalComponentRealization"
             id="dfb72fb4-6d9c-46a5-9d1e-0bd552220c04" targetElement="#f4345b7e-ffc5-473b-aeff-9b15459e86d0"
             sourceElement="#a4819ae2-8267-4c87-8216-42569103d83f"/>
